@@ -1,5 +1,5 @@
 # 📊 Project Title: Google Analytics Ecommerce SQL Analysis  
-**Author:** [Your Name]  
+**Author:** [Hà Minh Khuê]  
 **Date:** 2025-07-31  
 **Tools Used:** SQL (Google BigQuery)
 
@@ -34,46 +34,21 @@
 
 ## 📂 Dataset Description & Data Structure
 
-### 📌 Data Source
-- Source: Google BigQuery Public Dataset: `bigquery-public-data.google_analytics_sample`  
-- Size: Multiple tables with millions of rows covering Google Merchandise Store  
-- Format: SQL tables with nested fields (arrays, records)
+### 📌 **Data Source**  
+📌 **Data Source:** The sample data is from **Google Analytics 4 (GA4)**, exported to **BigQuery**, including user activity data from the **Google Merchandise Store** e-commerce website.
+
+### 📌 **Data Size**  
+- **Dataset:** `ga4_obfuscated_sample_ecommerce`
+
+### 📌 **How to Access the Data**
+1. Log in to your **Google Cloud Platform** account and create a new project.  
+2. Open the **BigQuery Console** and select your project.  
+3. Click on **"Add Data"** in the navigation panel, then choose **"Search a project"**.  
+4. In the search bar, enter the project ID: `bigquery-public-data.google_analytics_sample.ga_sessions` and press **Enter**.  
+5. Click on the `ga_sessions_` table to explore its structure and data.
 
 ---
 
-### 📊 Data Structure & Relationships  
-
-#### 1️⃣ Tables Used
-- `ga_sessions_2017*`: main sessions data from January to July 2017  
-
-#### 2️⃣ Table Schema & Data Snapshot  
-- The table includes nested fields like `hits`, `hits.product`, `trafficSource`, `totals`.
-
-| Column Name           | Data Type | Description                                  |
-|-----------------------|-----------|----------------------------------------------|
-| date                  | STRING    | Date of the session                          |
-| totals.visits         | INTEGER   | Number of visits per session                 |
-| totals.pageviews      | INTEGER   | Pageviews during the session                 |
-| totals.transactions   | INTEGER   | Transaction count                            |
-| hits.productRevenue   | INTEGER   | Product revenue per product (in micros)      |
-| hits.eCommerceAction  | RECORD    | Includes action_type: view, add_to_cart, buy |
-| trafficSource.source  | STRING    | User source: direct, google, youtube, etc.   |
-
-#### 3️⃣ Data Relationships
-- One-to-many between sessions and hits  
-- One-to-many between hits and products  
-👉🏻 ER diagram not available as this is flat JSON-based schema, but logical nesting applies.
-
----
-
-## 🧠 Design Thinking Process  
-
-1️⃣ **Empathize**: Understand the data format (nested structure), usage of Google Analytics terms  
-2️⃣ **Define POV**: SQL practice aligned with ecommerce KPIs  
-3️⃣ **Ideate**: What user and product behavior patterns can be extracted  
-4️⃣ **Prototype & Review**: Build SQL queries → validate output → optimize filtering
-
----
 
 ### ⚒️ Main Process
 
