@@ -1,16 +1,17 @@
-# 📊 Project Title: Google Analytics Ecommerce SQL Analysis  
+# 📊 Ecommerce Performance User Behavior Analysis SQL Bigquery .  
 **Author:** [Hà Minh Khuê]  
 **Date:** 2025-07-31  
 **Tools Used:** SQL (Google BigQuery)
 
 ---
 
-## 📑 Table of Contents  
-- 📌 Background & Overview  
-- 📂 Dataset Description & Data Structure  
-- 🧠 Design Thinking Process  
-- 📊 Key Insights & Visualizations  
-- 🔎 Final Conclusion & Recommendations  
+## 📑 Table of Contents
+- [📌 Background & Overview](#-background--overview)
+- [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)
+- [🧠 Design Thinking Process](#-design-thinking-process)
+- [⚒️ Main Process](#-main-process)
+- [📊 Key Insights & Visualizations](#-key-insights--visualizations)
+- [📌 Key Takeaways & Recommendations](#-key-takeaways--recommendations)
 
 ---
 
