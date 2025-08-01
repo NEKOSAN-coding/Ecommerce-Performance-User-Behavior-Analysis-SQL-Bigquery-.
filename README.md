@@ -14,21 +14,30 @@
 
 ---
 
-## 📌 Background & Overview  
+## 📌 Background & Overview
 
-### 📖 What is this project about?
-- This project analyzes e-commerce performance using Google Analytics sample data via SQL.
-- The key objectives are:  
-  ✔️ Understand monthly user behavior (visits, pageviews, transactions)  
-  ✔️ Evaluate bounce rate by traffic source  
-  ✔️ Identify weekly/monthly revenue patterns  
-  ✔️ Differentiate between purchaser and non-purchaser behaviors  
-  ✔️ Analyze product funnel performance (view → cart → purchase)  
+### 📖 What is this project about? What business questions does it aim to answer?
+
+This project leverages **SQL** and **Google BigQuery** to explore key performance metrics of an e-commerce website, using real GA4-exported data from the **Google Merchandise Store**. It aims to answer critical business questions across customer behavior, traffic source effectiveness, and purchase funnel conversion.
+
+The analysis focuses on:
+
+✔️ Monitoring monthly trends in visits, pageviews, and transactions  
+✔️ Breaking down revenue by traffic source at both weekly and monthly levels  
+✔️ Comparing engagement levels between purchasers and non-purchasers  
+✔️ Mapping the customer journey from product view → add-to-cart → purchase
+
+Through this, the project uncovers actionable insights to support data-driven decisions in e-commerce strategy, UX optimization, and marketing performance.
+
+---
 
 ### 👤 Who is this project for?
-✔️ Junior Data Analysts & BI learners  
-✔️ E-commerce business strategists  
-✔️ Recruiters assessing SQL proficiency  
+
+✔️ **Data Analysts** – for SQL practice and behavior-driven segmentation  
+✔️ **Marketing Teams** – to evaluate campaign traffic quality and ROI  
+✔️ **E-commerce Managers & Stakeholders** – to optimize customer experience and conversion  
+✔️ **Business Intelligence Teams** – to build metrics for strategic performance tracking
+  
 
 ---
 
