@@ -69,6 +69,8 @@ WHERE _TABLE_SUFFIX BETWEEN '0101' AND '0331'
 GROUP BY month
 ORDER BY month;
 ```
+** Query result**
+<img width="868" height="244" alt="image" src="https://github.com/user-attachments/assets/500ec482-3288-4a4e-8c30-4650cc0d85de" />
 
 **🔍 Insight:**  
 March 2017 showed the highest engagement across visits, pageviews, and transactions.
