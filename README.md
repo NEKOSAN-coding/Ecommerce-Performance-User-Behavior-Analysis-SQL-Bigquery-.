@@ -73,9 +73,6 @@ ORDER BY month;
 
 <img width="868" height="244" alt="image" src="https://github.com/user-attachments/assets/500ec482-3288-4a4e-8c30-4650cc0d85de" />
 
-**🔍 Insight:**  
-March 2017 showed the highest engagement across visits, pageviews, and transactions.
-
 ---
 
 ### 🧪 Query 02: Bounce Rate by Traffic Source (July 2017)
@@ -94,9 +91,9 @@ FROM `bigquery-public-data.google_analytics_sample.ga_sessions_201707*`
 GROUP BY trafficSource.source
 ORDER BY total_visits DESC;
 ```
+**💡 Query result:**
 
-**🔍 Insight:**  
-Google had the most traffic but also a high bounce rate (~51.6%), indicating potential misalignment of user intent.
+<img width="854" height="413" alt="image" src="https://github.com/user-attachments/assets/a15dbf65-e1e1-463e-bcd6-04797959b899" />
 
 ---
 
@@ -137,9 +134,9 @@ UNION ALL
 SELECT * FROM week_data
 ORDER BY time_type;
 ```
+**💡 Query result:**
 
-**🔍 Insight:**  
-Direct traffic generated the most revenue in both weekly and monthly aggregates.
+<img width="986" height="412" alt="image" src="https://github.com/user-attachments/assets/d379862f-be8b-46da-b78b-0aeeb594f68c" />
 
 ---
 
@@ -181,9 +178,9 @@ FROM purchaser_data pd
 FULL JOIN non_purchaser_data USING(month)
 ORDER BY pd.month;
 ```
+**💡 Query result:**
 
-**🔍 Insight:**  
-Non-purchasers viewed more pages on average, possibly indicating friction in the conversion process.
+<img width="865" height="210" alt="image" src="https://github.com/user-attachments/assets/1d102b0d-d3d9-418f-b2f0-ee1c36e35e4b" />
 
 ---
 
@@ -204,9 +201,9 @@ WHERE totals.transactions >= 1
   AND product.productRevenue IS NOT NULL
 GROUP BY month;
 ```
+**💡 Query result:**
 
-**🔍 Insight:**  
-On average, a purchasing user completed about 4.16 transactions in July 2017.
+<img width="679" height="179" alt="image" src="https://github.com/user-attachments/assets/e0262de6-85a0-4fa0-9114-61ae683e2d1c" />
 
 ---
 
@@ -227,9 +224,9 @@ WHERE product.productRevenue IS NOT NULL
   AND totals.transactions >= 1
 GROUP BY month;
 ```
+**💡 Query result:**
 
-**🔍 Insight:**  
-Purchasing sessions in July 2017 generated an average revenue of ~$43.85 per visit.
+<img width="670" height="177" alt="image" src="https://github.com/user-attachments/assets/68a1ca15-056f-4a86-bb7c-5d333d7719ea" />
 
 ---
 
@@ -261,9 +258,9 @@ WHERE product.v2ProductName != "YouTube Men's Vintage Henley"
 GROUP BY other_purchased_products
 ORDER BY quantity DESC;
 ```
+**💡 Query result:**
 
-**🔍 Insight:**  
-Popular co-purchased items include Google Sunglasses and Hero Tees, revealing potential upsell combos.
+<img width="694" height="408" alt="image" src="https://github.com/user-attachments/assets/2522fe2c-5c3a-4282-b553-be7787a81219" />
 
 ---
 
@@ -292,15 +289,14 @@ SELECT *,
   ROUND(num_purchase / num_product_view * 100, 2) AS purchase_rate
 FROM product_data;
 ```
+**💡 Query result:**
 
-**🔍 Insight:**  
-Conversion rates improved monthly, with March achieving a ~12.6% view-to-purchase rate.
+<img width="1110" height="245" alt="image" src="https://github.com/user-attachments/assets/91c61b1d-7f61-4a82-b974-78e2edb07131" />
 
 ---
 
 ## 📊 Key Insights & Visualizations  
 
-> ⚠️ *Power BI dashboards not included in this SQL-only project. However, key findings are listed below.*
 
 ### 📌 Analysis 1: User Activity Trends
 - March 2017 had the highest number of transactions (993).
