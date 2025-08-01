@@ -10,8 +10,7 @@
 - [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)
 - [🧠 Design Thinking Process](#-design-thinking-process)
 - [⚒️ Main Process](#-main-process)
-- [📊 Key Insights & Visualizations](#-key-insights--visualizations)
-- [📌 Key Takeaways & Recommendations](#-key-takeaways--recommendations)
+- [📌 Key Takeaways, Insights & Recommendations](#-key-takeaways-insights--recommendations)
 
 ---
 
