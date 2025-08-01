@@ -295,34 +295,27 @@ FROM product_data;
 
 ---
 
-## 📊 Key Insights & Visualizations  
+## 📌 Key Takeaways, Insights & Recommendations
 
-
-### 📌 Analysis 1: User Activity Trends
-- March 2017 had the highest number of transactions (993).
-- Google was the largest traffic source with high bounce rate (51.5%).
-
-### 📌 Analysis 2: Revenue Contribution
-- Direct traffic brought in the highest revenue in June 2017: ~$97,000.
-- Revenue trends showed weekly spikes corresponding with product sales.
-
-### 📌 Analysis 3: Purchaser vs. Non-Purchaser Behavior
-- Non-purchasers had surprisingly higher average pageviews than purchasers.
-- Average transactions per purchasing user in July = ~4.16.
-
-### 📌 Analysis 4: Product Funnel Drop-off
-- Product view to add-to-cart rates range: 28%–37%  
-- Conversion from view to purchase: ~8–13%, improving over time
+### 🟡 Key Takeaways:
+- March 2017 recorded **69,931 visits** and **993 transactions**, the highest in Q1.
+- Email traffic from `mail.google.com` generated over **$2.56M in revenue**, dominating all sources.
+- Purchasers in July made an average of **4.16 transactions** and spent **$43.86 per session**.
+- Non-purchasers viewed up to **334 pages on average**, 3× more than purchasers.
 
 ---
 
-## 🔎 Final Conclusion & Recommendations  
+### 🔍 Insights:
+- March outperformed January and February in visits, pageviews, and transactions—indicating peak campaign or seasonal impact.
+- Users who made purchases in July completed **over 4 transactions** and spent an average of **$43.86 per session**.
+- Visitors from social sources like YouTube had high bounce rates (~66%), showing low engagement compared to direct or referral traffic.
+- Common co-purchases included branded lifestyle products like sunglasses and t-shirts, indicating cross-category shopping behavior.
 
-👉🏻 Based on the insights and findings above, we recommend the ecommerce stakeholder team to consider:
+---
 
-### 📌 Key Takeaways:
-✔️ Targeted campaigns should focus on low-bounce traffic sources like YouTube or Analytics Referrals.  
-✔️ Investigate why non-purchasers consume more content—possible interest, but drop-off at checkout.  
-✔️ Improve cart-to-purchase flow as many users drop off after adding items to cart.  
-✔️ Consider weekly promotions to align with spikes in purchase behavior.  
-✔️ Continue monitoring product performance at SKU level to boost co-purchase opportunities.
+### ✅ Recommendations:
+- **Replicate March strategies** (campaigns, UX changes, or promotions) across other months or product categories.
+- **Double down on email marketing**, especially transactional or automated flows, which generated the highest revenue.
+- **Improve conversion paths** for high-pageview, non-converting users—optimize product pages, loading speed, and checkout flow.
+- **Implement product bundling and cross-sell strategies** based on co-purchase behavior to increase average order value (AOV).
+
